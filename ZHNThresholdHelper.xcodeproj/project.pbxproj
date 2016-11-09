@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3192761DD30FD500425D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3192751DD30FD500425D2A /* main.m */; };
+		CD3192791DD30FD500425D2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3192781DD30FD500425D2A /* AppDelegate.m */; };
+		CD31927C1DD30FD500425D2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31927B1DD30FD500425D2A /* ViewController.m */; };
+		CD31927F1DD30FD500425D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD31927D1DD30FD500425D2A /* Main.storyboard */; };
+		CD3192811DD30FD500425D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3192801DD30FD500425D2A /* Assets.xcassets */; };
+		CD3192841DD30FD500425D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3192821DD30FD500425D2A /* LaunchScreen.storyboard */; };
+		CD31928F1DD30FD500425D2A /* ZHNThresholdHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31928E1DD30FD500425D2A /* ZHNThresholdHelperTests.m */; };
+		CD31929A1DD30FD500425D2A /* ZHNThresholdHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3192991DD30FD500425D2A /* ZHNThresholdHelperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD31928B1DD30FD500425D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3192691DD30FD500425D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3192701DD30FD500425D2A;
+			remoteInfo = ZHNThresholdHelper;
+		};
+		CD3192961DD30FD500425D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3192691DD30FD500425D2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3192701DD30FD500425D2A;
+			remoteInfo = ZHNThresholdHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3192711DD30FD500425D2A /* ZHNThresholdHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNThresholdHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3192751DD30FD500425D2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3192771DD30FD500425D2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3192781DD30FD500425D2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD31927A1DD30FD500425D2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD31927B1DD30FD500425D2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD31927E1DD30FD500425D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3192801DD30FD500425D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3192831DD30FD500425D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3192851DD30FD500425D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD31928A1DD30FD500425D2A /* ZHNThresholdHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNThresholdHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD31928E1DD30FD500425D2A /* ZHNThresholdHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNThresholdHelperTests.m; sourceTree = "<group>"; };
+		CD3192901DD30FD500425D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3192951DD30FD500425D2A /* ZHNThresholdHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNThresholdHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3192991DD30FD500425D2A /* ZHNThresholdHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNThresholdHelperUITests.m; sourceTree = "<group>"; };
+		CD31929B1DD30FD500425D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD31926E1DD30FD500425D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3192871DD30FD500425D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3192921DD30FD500425D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3192681DD30FD500425D2A = {
+			isa = PBXGroup;
+			children = (
+				CD3192731DD30FD500425D2A /* ZHNThresholdHelper */,
+				CD31928D1DD30FD500425D2A /* ZHNThresholdHelperTests */,
+				CD3192981DD30FD500425D2A /* ZHNThresholdHelperUITests */,
+				CD3192721DD30FD500425D2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3192721DD30FD500425D2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3192711DD30FD500425D2A /* ZHNThresholdHelper.app */,
+				CD31928A1DD30FD500425D2A /* ZHNThresholdHelperTests.xctest */,
+				CD3192951DD30FD500425D2A /* ZHNThresholdHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3192731DD30FD500425D2A /* ZHNThresholdHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CD3192771DD30FD500425D2A /* AppDelegate.h */,
+				CD3192781DD30FD500425D2A /* AppDelegate.m */,
+				CD31927A1DD30FD500425D2A /* ViewController.h */,
+				CD31927B1DD30FD500425D2A /* ViewController.m */,
+				CD31927D1DD30FD500425D2A /* Main.storyboard */,
+				CD3192801DD30FD500425D2A /* Assets.xcassets */,
+				CD3192821DD30FD500425D2A /* LaunchScreen.storyboard */,
+				CD3192851DD30FD500425D2A /* Info.plist */,
+				CD3192741DD30FD500425D2A /* Supporting Files */,
+			);
+			path = ZHNThresholdHelper;
+			sourceTree = "<group>";
+		};
+		CD3192741DD30FD500425D2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD3192751DD30FD500425D2A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD31928D1DD30FD500425D2A /* ZHNThresholdHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD31928E1DD30FD500425D2A /* ZHNThresholdHelperTests.m */,
+				CD3192901DD30FD500425D2A /* Info.plist */,
+			);
+			path = ZHNThresholdHelperTests;
+			sourceTree = "<group>";
+		};
+		CD3192981DD30FD500425D2A /* ZHNThresholdHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3192991DD30FD500425D2A /* ZHNThresholdHelperUITests.m */,
+				CD31929B1DD30FD500425D2A /* Info.plist */,
+			);
+			path = ZHNThresholdHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3192701DD30FD500425D2A /* ZHNThresholdHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD31929E1DD30FD500425D2A /* Build configuration list for PBXNativeTarget "ZHNThresholdHelper" */;
+			buildPhases = (
+				CD31926D1DD30FD500425D2A /* Sources */,
+				CD31926E1DD30FD500425D2A /* Frameworks */,
+				CD31926F1DD30FD500425D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNThresholdHelper;
+			productName = ZHNThresholdHelper;
+			productReference = CD3192711DD30FD500425D2A /* ZHNThresholdHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3192891DD30FD500425D2A /* ZHNThresholdHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3192A11DD30FD500425D2A /* Build configuration list for PBXNativeTarget "ZHNThresholdHelperTests" */;
+			buildPhases = (
+				CD3192861DD30FD500425D2A /* Sources */,
+				CD3192871DD30FD500425D2A /* Frameworks */,
+				CD3192881DD30FD500425D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD31928C1DD30FD500425D2A /* PBXTargetDependency */,
+			);
+			name = ZHNThresholdHelperTests;
+			productName = ZHNThresholdHelperTests;
+			productReference = CD31928A1DD30FD500425D2A /* ZHNThresholdHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3192941DD30FD500425D2A /* ZHNThresholdHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3192A41DD30FD500425D2A /* Build configuration list for PBXNativeTarget "ZHNThresholdHelperUITests" */;
+			buildPhases = (
+				CD3192911DD30FD500425D2A /* Sources */,
+				CD3192921DD30FD500425D2A /* Frameworks */,
+				CD3192931DD30FD500425D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3192971DD30FD500425D2A /* PBXTargetDependency */,
+			);
+			name = ZHNThresholdHelperUITests;
+			productName = ZHNThresholdHelperUITests;
+			productReference = CD3192951DD30FD500425D2A /* ZHNThresholdHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3192691DD30FD500425D2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhn;
+				TargetAttributes = {
+					CD3192701DD30FD500425D2A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CD3192891DD30FD500425D2A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3192701DD30FD500425D2A;
+					};
+					CD3192941DD30FD500425D2A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD3192701DD30FD500425D2A;
+					};
+				};
+			};
+			buildConfigurationList = CD31926C1DD30FD500425D2A /* Build configuration list for PBXProject "ZHNThresholdHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3192681DD30FD500425D2A;
+			productRefGroup = CD3192721DD30FD500425D2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3192701DD30FD500425D2A /* ZHNThresholdHelper */,
+				CD3192891DD30FD500425D2A /* ZHNThresholdHelperTests */,
+				CD3192941DD30FD500425D2A /* ZHNThresholdHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD31926F1DD30FD500425D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3192841DD30FD500425D2A /* LaunchScreen.storyboard in Resources */,
+				CD3192811DD30FD500425D2A /* Assets.xcassets in Resources */,
+				CD31927F1DD30FD500425D2A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3192881DD30FD500425D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3192931DD30FD500425D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD31926D1DD30FD500425D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31927C1DD30FD500425D2A /* ViewController.m in Sources */,
+				CD3192791DD30FD500425D2A /* AppDelegate.m in Sources */,
+				CD3192761DD30FD500425D2A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3192861DD30FD500425D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31928F1DD30FD500425D2A /* ZHNThresholdHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3192911DD30FD500425D2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31929A1DD30FD500425D2A /* ZHNThresholdHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD31928C1DD30FD500425D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3192701DD30FD500425D2A /* ZHNThresholdHelper */;
+			targetProxy = CD31928B1DD30FD500425D2A /* PBXContainerItemProxy */;
+		};
+		CD3192971DD30FD500425D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3192701DD30FD500425D2A /* ZHNThresholdHelper */;
+			targetProxy = CD3192961DD30FD500425D2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD31927D1DD30FD500425D2A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD31927E1DD30FD500425D2A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3192821DD30FD500425D2A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3192831DD30FD500425D2A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD31929C1DD30FD500425D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD31929D1DD30FD500425D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD31929F1DD30FD500425D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNThresholdHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNThresholdHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3192A01DD30FD500425D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNThresholdHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNThresholdHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3192A21DD30FD500425D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNThresholdHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNThresholdHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNThresholdHelper.app/ZHNThresholdHelper";
+			};
+			name = Debug;
+		};
+		CD3192A31DD30FD500425D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZHNThresholdHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNThresholdHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHNThresholdHelper.app/ZHNThresholdHelper";
+			};
+			name = Release;
+		};
+		CD3192A51DD30FD500425D2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNThresholdHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNThresholdHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNThresholdHelper;
+			};
+			name = Debug;
+		};
+		CD3192A61DD30FD500425D2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZHNThresholdHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhn.ZHNThresholdHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZHNThresholdHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD31926C1DD30FD500425D2A /* Build configuration list for PBXProject "ZHNThresholdHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD31929C1DD30FD500425D2A /* Debug */,
+				CD31929D1DD30FD500425D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD31929E1DD30FD500425D2A /* Build configuration list for PBXNativeTarget "ZHNThresholdHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD31929F1DD30FD500425D2A /* Debug */,
+				CD3192A01DD30FD500425D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3192A11DD30FD500425D2A /* Build configuration list for PBXNativeTarget "ZHNThresholdHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3192A21DD30FD500425D2A /* Debug */,
+				CD3192A31DD30FD500425D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD3192A41DD30FD500425D2A /* Build configuration list for PBXNativeTarget "ZHNThresholdHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3192A51DD30FD500425D2A /* Debug */,
+				CD3192A61DD30FD500425D2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3192691DD30FD500425D2A /* Project object */;
+}
