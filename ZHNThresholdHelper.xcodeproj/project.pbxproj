@@ -15,6 +15,8 @@
 		CD3192841DD30FD500425D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3192821DD30FD500425D2A /* LaunchScreen.storyboard */; };
 		CD31928F1DD30FD500425D2A /* ZHNThresholdHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31928E1DD30FD500425D2A /* ZHNThresholdHelperTests.m */; };
 		CD31929A1DD30FD500425D2A /* ZHNThresholdHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3192991DD30FD500425D2A /* ZHNThresholdHelperUITests.m */; };
+		CD3192A91DD3101000425D2A /* ZHNThresholdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3192A81DD3101000425D2A /* ZHNThresholdHelper.m */; };
+		CD3192AC1DD3112000425D2A /* delegateContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3192AA1DD3112000425D2A /* delegateContainer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		CD3192951DD30FD500425D2A /* ZHNThresholdHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHNThresholdHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3192991DD30FD500425D2A /* ZHNThresholdHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHNThresholdHelperUITests.m; sourceTree = "<group>"; };
 		CD31929B1DD30FD500425D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3192A71DD3101000425D2A /* ZHNThresholdHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNThresholdHelper.h; sourceTree = "<group>"; };
+		CD3192A81DD3101000425D2A /* ZHNThresholdHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNThresholdHelper.m; sourceTree = "<group>"; };
+		CD3192AA1DD3112000425D2A /* delegateContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = delegateContainer.m; sourceTree = "<group>"; };
+		CD3192AB1DD3112000425D2A /* delegateContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegateContainer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		CD3192731DD30FD500425D2A /* ZHNThresholdHelper */ = {
 			isa = PBXGroup;
 			children = (
+				CD3192AD1DD3610D00425D2A /* thresholdHelper */,
 				CD3192771DD30FD500425D2A /* AppDelegate.h */,
 				CD3192781DD30FD500425D2A /* AppDelegate.m */,
 				CD31927A1DD30FD500425D2A /* ViewController.h */,
@@ -138,6 +145,17 @@
 				CD31929B1DD30FD500425D2A /* Info.plist */,
 			);
 			path = ZHNThresholdHelperUITests;
+			sourceTree = "<group>";
+		};
+		CD3192AD1DD3610D00425D2A /* thresholdHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CD3192A71DD3101000425D2A /* ZHNThresholdHelper.h */,
+				CD3192A81DD3101000425D2A /* ZHNThresholdHelper.m */,
+				CD3192AA1DD3112000425D2A /* delegateContainer.m */,
+				CD3192AB1DD3112000425D2A /* delegateContainer.h */,
+			);
+			name = thresholdHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3192A91DD3101000425D2A /* ZHNThresholdHelper.m in Sources */,
 				CD31927C1DD30FD500425D2A /* ViewController.m in Sources */,
 				CD3192791DD30FD500425D2A /* AppDelegate.m in Sources */,
 				CD3192761DD30FD500425D2A /* main.m in Sources */,
+				CD3192AC1DD3112000425D2A /* delegateContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
