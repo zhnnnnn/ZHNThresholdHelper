@@ -43,6 +43,7 @@
             [_statusArray addObject:@""];
         }
         [weakSelf.contentTableView reloadData];
+        [weakSelf.helper endLoadDatas];
     }];
     self.helper = helper;
     
