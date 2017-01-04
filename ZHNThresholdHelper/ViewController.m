@@ -38,7 +38,7 @@
     
     //----- addcount填的值需要和reloadaction里增加的值相对应
     __weak __typeof__(self) weakSelf = self;
-    ZHNThresholdHelper * helper = [[ZHNThresholdHelper alloc]initWithThreshold:0.7 everyLoadAddCount:30 reloadAction:^{
+    ZHNThresholdHelper * helper = [[ZHNThresholdHelper alloc]initWithThreshold:0.7 everyLoadAddCount:30 contol:self tableView:contentTableView reloadAction:^{
         for (int index = 0; index < 30; index++) {
             [_statusArray addObject:@""];
         }
@@ -46,11 +46,7 @@
         [weakSelf.helper endLoadDatas];
     }];
     self.helper = helper;
-    
-    delegateContainer * container = [delegateContainer containerDelegateWithFirst:self second:helper];
-    self.container = container;
-    
-    self.contentTableView.delegate = (id)container;
+
     self.contentTableView.dataSource = self;
 }
 

@@ -19,7 +19,7 @@ typedef void(^reloadAction)();
  @param reloadAction 刷新的方法
  @return helper
  */
-- (instancetype)initWithThreshold:(CGFloat)threshold everyLoadAddCount:(NSInteger)addCount reloadAction:(reloadAction)reloadAction;
+- (instancetype)initWithThreshold:(CGFloat)threshold everyLoadAddCount:(NSInteger)addCount contol:(id)control tableView:(UITableView *)tableView reloadAction:(reloadAction)reloadAction;
 
 /**
  结束刷新的时候需要调用（必须要调用一下这个方法也就是reloadAction里结束的时候需要调用一下）

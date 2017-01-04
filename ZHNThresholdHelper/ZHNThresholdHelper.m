@@ -7,6 +7,7 @@
 //
 
 #import "ZHNThresholdHelper.h"
+#import "delegateContainer.h"
 
 @interface ZHNThresholdHelper()<UIScrollViewDelegate,UITableViewDelegate>
 
@@ -14,18 +15,21 @@
 @property (nonatomic,assign) NSInteger currentPage;
 @property (nonatomic,assign) NSInteger itemPerpage;
 @property (nonatomic,copy) reloadAction action;
+@property (nonatomic,strong) delegateContainer * container;
 // 判断是否正在加载
 @property(nonatomic,getter=isloading) BOOL loading;
 @end
 
 @implementation ZHNThresholdHelper
 
-- (instancetype)initWithThreshold:(CGFloat)threshold everyLoadAddCount:(NSInteger)addCount reloadAction:(reloadAction)reloadAction{
-    
+- (instancetype)initWithThreshold:(CGFloat)threshold everyLoadAddCount:(NSInteger)addCount contol:(id)control tableView:(UITableView *)tableView reloadAction:(reloadAction)reloadAction{
     if (self = [super init]) {
         self.threshold = threshold;
         self.action = reloadAction;
         self.itemPerpage = addCount;
+        delegateContainer * container = [delegateContainer containerDelegateWithFirst:self second:self];
+        self.container = container;
+        tableView.delegate = (id)container;
     }
     return self;
 }
